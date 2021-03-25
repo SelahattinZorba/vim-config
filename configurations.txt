@@ -1,0 +1,28 @@
+### VIM CONFİGURATIONS
+
+````
+call plug#begin('~/.vim/plugged')
+Plug 'senran101604/neotrix.vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'sheerun/vim-polyglot'
+call plug#end()
+
+syntax on
+set tabstop=2
+set shiftwidth=2
+set nofixeol
+set nowrap
+set backspace=2
+set expandtab
+imap <F5> <Esc>:w<CR>:!clear;python %<CR>
+set encoding=utf-8
+set noerrorbells
+set vb t_vb=
+set ai
+set number
+set hlsearch
+set ruler
+highlight Comment ctermfg=green
+colorscheme peachpuff
+
+````
